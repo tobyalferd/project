@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .parallax {
+  /* The image used */
+  background-image: url("./fresh\ gal.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    </style>
+</head>
+<body>
+    <div class="parallax">
+
+    </div>
+</body>
+<script>
+    import { useState } from "react";
+import "./styles.css";
+
+export default function App() {
+  const [ isOpen, setIsOpen ] = useState( false );
+
+  const handleOpen = () => {
+    setIsOpen( !isOpen );
+  };
+
+  return (
+    <div className="App">
+
+      <button onClick={handleOpen}>Open</button>
+
+      <div className={`container ${isOpen ? "containerOpened" : "containerClosed"}`}>
+        <input type="text" />
+      </div>
+
+    </div>
+  );
+}
+
+</script>
+</html>

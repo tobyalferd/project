@@ -1,0 +1,402 @@
+*{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+main{
+    background-color: rgb(46,73,183);
+    background-image:linear-gradient(rgb(46,73,183), rgb(74,143,128),rgb(74,142,128));
+    height: 123vh;
+    
+}
+.photo{
+    margin-left: 50px;font-family: 'Poppins', sans-serif;
+
+
+    /* margin-top: 20px; */
+    height: 38px;
+}
+nav{
+    display: flex;
+    height: 75px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+ul{
+    margin-left: 220px;
+    font-size: 15px;
+    
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding-left:40px;
+    color: white;
+    position: relative;
+    
+
+}
+.elohim{
+    padding-left: 40px;
+    color: white;
+}
+.aha{
+    background-color: rgb(48,78,180);
+
+    border: none;
+    color: white;
+    height: 58px;
+}
+.ref{
+    color: white;
+    text-decoration: none;
+}
+.lever{
+    background-color: white;
+    height: 100px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    left: 5;
+    width: 200px;
+    display: none;
+    box-shadow: 5px 10px 30px solid black;
+}
+.lever h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.lever h3 a{
+    text-decoration: none;
+    color: black;
+}
+.lever h3:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+.lever2{
+    background-color: white;
+    height: 140px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    left: 5;
+    width: 200px;
+    display: none;
+}
+.lever2 h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.lever2 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.lever2 h3:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+.lever3{
+    background-color: white;
+    height: 160px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    left: 5;
+    width: 200px;
+    display: none;
+}
+.lever3 h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.lever3 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.lever3 h3:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+.lever4{
+    background-color: white;
+    height: 60px;
+    color: black;
+    padding-top: 5px;
+    border-radius: 10px;
+    position: absolute;
+    left: 5;
+    width: 160px;
+    display: none;
+}
+.lever4 h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.lever4 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.lever4 h3:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+.lever5{
+    background-color: white;
+    height: 60px;
+    color: black;
+    padding-top: 5px;
+    border-radius: 10px;
+    position: absolute;
+    left: 5;
+    width: 150px;
+    display: none;
+}
+.lever5 h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.lever5 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.lever5 h3:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+.lever6{
+    background-color: white;
+    height: 80px;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 5;
+    width: 165px;
+    display: none;
+}
+.lever6 h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    /* padding-left: 25px; */
+    padding-top: 10px;
+}
+.lever6 h3 a{
+    text-decoration: none;
+    color: black;
+}
+.lever6 h3:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+i button{
+    position: absolute;
+    right: 35px;
+    top: 50px;
+    display: none;
+}
+i:hover button{
+    display: block;
+}
+li:hover .lever{
+    display: block;
+    /* text-decoration: underline; */
+}
+li:hover .lever2{
+    display: block;
+}
+li:hover .lever3{
+    display: block;
+}
+li:hover .lever4{
+    display: block;
+}
+li:hover .lever5{
+    display: block;
+}
+li:hover .lever6{
+    display: block;
+}
+li:hover .ref{
+    text-decoration: underline;
+}
+.change{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.girls{
+    margin-top: 45px;
+    margin-left: 50px;
+    /* background-color: red; */
+    
+}
+.main{
+ display: flex;   
+}
+.ops{
+    font-size: 85px;
+    margin-top: 30px;
+    color: white;
+    /* background-color: green; */
+    /* padding-bottom: 30px; */
+}
+.police{
+    color: white;
+    font-size: 22px;
+    margin-bottom:30px;
+    /* background-color: aqua; */
+}       
+.flex{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 60px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-left: 40px;
+    padding-top: 19px;
+    padding-right: 60px;
+}
+.first{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.second{
+    color:white;
+    font-weight: 100;
+    text-decoration: none;
+}
+.mon{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border-bottom: 1px solid white;
+    /* background-color: rgb(74,142,128); */
+}
+.more{
+    width: 300px;
+    padding:20px 35px;
+    border-right: 1px solid white;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+.more2{
+    width: 290px;
+    padding:20px 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+.coke{
+    margin-left: 10px;
+    margin-top: 15px;
+    width:160px;
+    border-radius: 15px;
+    border: 1px solid white;
+    height: 45px;
+    background-color: rgb(74,142,128);
+}
+.omo{
+    color: white;
+    text-decoration: none;
+}
+.coke:hover {
+    background-color: white;
+}
+.coke:hover a{
+    color: black;
+}
+h3{
+    padding-left: 15px;
+    /* padding-top: 10px; */
+}
+.baba{
+    padding-top: 10px;
+}
+.back{
+    height: 90vh;
+    padding-left: 50px;
+    position: sticky;
+    top: 10px;
+    background-color: white;
+    background-image: linear-gradient(#ffff , rgb(225,215,254),
+     rgb(186,163,252),
+     rgb(180,184,251),
+      rgb(87,30,247));
+ }
+.empty{
+    height: 120px;
+}
+.ode{
+    font-weight: 600;
+    font-size: 80px;
+}
+.olu{
+    margin-top:25px;
+}
+.dot{
+    padding-top: 25px;
+}
+.tobi {
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tobi a{
+    text-decoration: none;
+    color:black;
+}
+h4 button{
+    margin-top: 10px;
+    border: none;
+    background-color:rgb(225,215,254);
+}
+.load{
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    position: sticky;
+    left: 700px;
+    top: 100px;
+    background-color: black;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+}
+.maa{
+    padding-left: 50px;
+    height: 90vh;
+    background-image: linear-gradient(#FFFF,rgb(184,212,205),
+    rgb(140,185,172),rgb(116,170,154),rgb(79,148,248));
+}
+.maa h2{
+    font-size: 80px;
+}
+.edy{
+    font-size: 60px;
+    padding-left: 53px;
+}
+.edy p{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.edy .tobi a{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}

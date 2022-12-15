@@ -1,0 +1,345 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.opi{
+    background-image: url(fresh_gal-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: top;
+    background-attachment: fixed;
+    background-color: #de3a30;
+    height: 100vh;
+    /* position: fixed; */
+}
+.parallax {
+    /* The image used */
+    background-color: white;
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 17px;
+    /* justify-content: space-between; */
+}
+li{
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    padding-left: 100px;
+}
+ul li{
+    padding-left: 38px;
+}
+.me{
+border: none;
+background-color: rgb(217,48,41);
+color: white;
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 150px;
+}
+a img{
+    text-decoration: none;
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.stevo{
+    /* width: 100%; */
+    height: 100vh;
+    margin-top: 40px;
+    /* background-color: white; */
+    margin-left: 55px;
+}
+.stevo p{
+    color: white;
+    font-size: 30px;
+}
+.stevo h1{
+    padding-top: 10px;
+    font-size: 70px;
+    font-weight: 400px;
+    color: white;
+}
+.dij{
+    background-color: black;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+}
+.dij a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    font-size: 19px;
+}
+.levr{
+    width: fit-content;
+    height: 60px;
+    /* margin-top: 170px; */
+    display: flex;
+    position: absolute;
+    top: 560px;
+    left:75px;
+    background-color: rgb(217,48,41);
+    border-radius: 30px;
+    /* background-color: white; */
+    border: 1px solid rgb(217,48,41);
+}
+.levr:focus-within{
+    background-color: white;
+    border: 1px solid black;
+}
+.levr:focus-within input{
+    background-color: white;
+    /* color: white; */
+}
+.levr:focus-within i{
+    color: black;
+}
+
+.levr:focus-within button{
+    border: 1px solid black;
+}
+.levr input :focus-within ::placeholder{
+    color: white;
+}
+.levr i{
+    padding-left: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+.levr input{
+    width: 1050px;
+    height: 55px; 
+     font-size: 25px;
+     /* color: white; */
+    background-color: rgb(217,48,41);
+    outline: none;
+    border: none;
+}
+.levr input ::placeholder{
+  
+   
+    font-family: sans-serif;
+
+}
+.levr button{
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+    padding-right: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    
+}
+.set{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.set button{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 100%;
+}
+.set h2{
+    font-weight: 100px;
+    font-size: 30px;
+    color: rgba(0,0,0,0.8);
+    padding-left: 20px;
+
+}
+.lew{
+    padding-left: 85px;
+    padding-top: 60px;
+}
+.love{
+    display: flex;
+    position: relative;
+}
+.display{
+    /* width:50%; */
+    /* height: 80px; */
+}
+.div{
+   height: fit-content;  
+   padding-top:30px ;
+   z-index: 1;
+}
+.daru{
+    width: 300px;
+    height: 80px;
+    /* border-radius: 30px; */
+    padding: 10px;
+    
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color:pink;
+    
+}
+.daru2{
+  width: 300px;
+  height: 80px;
+  /* border-radius: 30px; */
+  padding: 10px;
+  margin-top: 30px;
+  /* padding-top: 20px; */
+  margin-left: 300px;
+  background-color:pink;
+}
+.ticket{
+    z-index: 1;
+    display: flex;
+    /* margin-left: 20px; */
+}
+.ticket h3{
+    font-size: 50px;
+}
+.kid{
+    margin-left: 70px;
+    margin-top: 140px;
+}
+.kid p{
+ font-size: 25px;
+ padding-top: 20px;
+ word-spacing: 3px;
+ line-height: 30px;
+}
+.baller{
+    background-color: black;
+    border-radius: 30px;
+    width: 150px;
+    color: white;
+    height: 60px;
+    margin-top: 30px;
+
+}
+.baller a{
+    text-decoration: none;
+    color: white;
+}
+.loki{
+    display: flex;
+    /* width: 200%; */
+    overflow-x: scroll;
+}
+.baby{
+    height: 450px;
+    width: 380px;
+    margin-top: 70px;
+    border-radius:30px;
+    background-color: blue;
+    border: 2px solid white;
+    
+}
+ .sabinus{
+    margin-left: 70px;
+    font-size: 27px;
+    color: white;
+    padding-top: 25px;
+}
+.sabinus1{
+    margin-left:70px;
+    font-size: 27px;
+    color: white;
+    padding-top: 10px;
+}
+.sabinus2{
+    margin-left: 35px;
+    font-size: 27px;
+    padding-top: 10px;
+    color: rgb(106,119,124);
+}
+.new{
+    margin-left: 140px;
+    margin-top: 200px;
+    color:white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.oli{
+    margin-left: 520px;
+    font-size: 50px;
+}
+.organise{
+    height: 45px;
+    width: 80px;
+    border-radius: 20px;
+    background-color:blue;
+    color: white;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.tolu{
+    /* margin-left: 500px; */
+    margin-top: 150px;
+    height: 300px;
+    position: relative;
+}
+.tolu p{
+    padding-top: 30px;
+    font-size: 22px;
+    word-spacing: 6px;
+    margin-left: 450px;
+}
+.tolu h2{
+    margin-left: 450px;
+    font-size: 40px;
+    word-spacing: 14px;
+}
+.ada{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 570px;
+}
+.hoe{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+.hoe2{
+    position: absolute;
+    right: 130px;
+    bottom: 0px;
+    /* top: 100px; */
+}
+.fate{
+    /* margin-top: 100px; */
+}
+.sport{
+    height: 100vh;
+}

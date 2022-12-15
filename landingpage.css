@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+}
+main{
+    display: flex;  
+}
+.bata{
+    width: 340px;
+    background-color: black;
+    color: rgb(179,179,179);
+    height: 90vh;
+    padding-left: 20px;
+    /* position: fixed; */
+    display: block;
+}
+.bata img{
+    margin-top: 20px;
+}
+i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+i:hover{
+    color: white;
+}
+.oba{
+    margin-top: 30px;
+    margin-left:5px;
+    font-size: 14px;
+    font-family:Helvetica, sans-serif;
+    color: white;
+}
+.oba a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.oba:hover {
+    color: white;
+}
+.oba2{
+ margin-top: 20px;
+ margin-left: 5px;
+}
+.oba2 a{
+    text-decoration: none;
+    color: rgb(179,179,179);
+}
+.oba2:hover a{
+    color: white;
+} 
+.never{
+    height: 200vh;  
+    background-color: aqua;
+
+}
+.ola{
+    display: flex;
+    background-color:black;
+    height:60px;
+}
+ul{
+    margin-left:330px;
+}
+li{
+    display: inline;
+    color: rgb(179,179,179);
+}
+.padi{
+    color:rgb(179,179,179)
+    
+}
+.sanu{
+    height: 40px;
+}
+.lever{
+    width: 100%;
+    /* padding-top: 10px; */
+    height: 10vh;
+    color: white;
+    position: fixed;
+    background-image: linear-gradient( rgb(174,43,152),
+    rgb(138,84,187),rgb(114,113,210),
+    rgb(96,136,230),rgb(80,154,244));
+}
+.ile{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.ile2{
+    padding-left: 30px;
+    padding-top: 4px;
+}

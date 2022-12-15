@@ -1,0 +1,461 @@
+*{
+    margin: 0px;
+}
+.olobe{
+    background-color: rgb(32,43,58);
+}
+nav{
+    display: flex;
+    background-color: black;
+    padding: 10px 0px;
+    height: 60px;
+    justify-items: center;
+    /* height: 75px; */
+}
+.rad{
+    padding-top: 10px;
+}
+.white{
+    padding-left: 60px;
+}
+li{
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-right: 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li:hover a{
+    color: lightgreen;
+}
+ul{
+    border-right: 2px solid white;
+    margin-left: 500px;
+    margin-top: 24px;
+    height: fit-content;
+}
+.nepa{
+    margin-left: 40px;
+    /* align-content: center; */
+}
+.animal{
+   margin-top: 22px;
+   padding-left: 10px;
+   color: white;
+}
+
+.ole{
+    display: flex;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.going:hover .ole{
+  color: green;
+}
+.all{
+    color: white;
+    padding-top: 24px;
+    padding-left: 5px;
+}
+.oiu{
+font-size: 20px;
+margin-top: 15px;
+height: 23px;
+padding: 5px;
+color: white;
+border: 1px solid white;
+border-radius: 100%;
+}
+main{
+    height: 400px;
+    background-color: rgb(17,28,57);
+    background-image: linear-gradient(rgb(17,28,57), rgb(0,0,0));
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    padding-left: 60px;
+}
+.were{
+    padding-top: 70px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opp{
+    display: flex;
+}
+.year{
+    padding-top: 10px;
+    font-family:sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.liar{
+    height: 50px;
+    width: 170px;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-family: 'arial';
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(31,223,100);
+
+}
+.liar a{
+    text-decoration: none;
+    color: black;
+}
+.liar:hover{
+    scale: 1.05;
+}
+.boss{
+    margin-top: 13px;
+}
+.mon{
+    margin-top: 40px;
+    margin-left: 35px
+}
+.mane{
+    background-color:white;
+    margin-left:60px;
+    margin-right:60px;
+    display: flex;
+}
+.ler{
+    margin-left: 0px;
+    width: 290px;
+    height: 230vh;
+    background-color: rgb(27, 27, 27);
+}
+.obe{
+    margin-left: 100px;
+    margin-top: 35px;
+}
+.see{
+    color: white;
+    margin-top: 20px;
+    border: 1px solid rgba(39,39,39);
+    height: 55px;
+    align-items: center;
+    display: flex;
+}
+.see:hover{
+    border-left: 5px solid rgb(30,215,96);
+}
+.see:focus-within a{
+    color: white;
+}
+.see2{
+    color: white;
+    border: 1px solid rgba(39,39,39);
+    height: 55px;
+    align-items: center;
+    display: flex;  
+}.see2:hover{
+    border-left: 5px solid  rgb(30,215,96);
+}
+.orin{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.week{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.week a{
+    text-decoration: none;
+    color: rgb(130,148,150);
+}
+.week:hover a{
+    color: grey;
+} 
+.section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hard{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:50px ;
+}
+.had{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.had2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 60px;  
+}
+.sick{
+    display: flex;
+    border-bottom: 1px solid rgb(130,148,150);
+    height: 50px;
+    margin-top: 50px;
+    align-items: center;
+    width: 800px;
+}
+.sick2{
+    display: flex;
+    border-bottom: 1px solid rgb(130,148,150);
+    height: 60px;
+    align-items: center;
+    width: 800px;  
+}
+.gotv{
+    color: rgb(179,179,184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ojo{
+    padding-left: 283px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ojo2{
+    padding-left:315px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ojo3{
+    padding-left: 265px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ojo4{
+    padding-left: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.why{
+    height: 50px;
+    width: 140px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(179,179,184);
+    margin-top: 30px;
+    font-family:sans-serif;
+    font-weight: 800;
+}
+.why:hover{
+   border: 1px solid black;
+   scale: 1.05;
+}
+.why2{
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(179,179,184);
+    margin-top: 30px;
+    font-family:sans-serif;
+    font-weight: 800;
+}
+.why2:hover{
+    border: 1px solid black;
+   scale: 1.05; 
+}
+.why3{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(179,179,184);
+    margin-top: 30px;
+    font-family:sans-serif;
+    font-weight: 800;
+}
+.why3:hover{
+    border: 1px solid black;
+   scale: 1.05;  
+}
+.shebi{
+    height: 420px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(179,179,179);
+    box-shadow: 0px 3px 5px black;
+}
+.shey{
+    height: 220px;
+    background-color: rgb(179,179,179);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.ebu{
+    height: 260px;
+}
+.baba{
+    padding-left: 30px;
+    padding-top: 95px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.soj{
+    padding-top: 40px;
+    padding-left:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.dupe{
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left:30px;  
+}
+.God{
+    padding-top: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:20px ;
+}
+.God a{
+    text-decoration: underline;
+    color: black;
+}
+.God:hover a{
+    color: rgb(30,215,96);
+}
+.ookan{
+    border: 1px solid rgb(130,148,150);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 18px;
+}
+.last{
+    height: 80vh;
+    /* display: flex; */
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.last img{
+    width: 150px;
+    height: 60px;
+    padding: 80px;
+}
+.gbagbe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 90px;
+}
+.gbagbe a{
+    text-decoration: none;
+    color: rgb(130,148,150);
+}
+.gbagbe:hover a{
+    color: rgb(30,215,96);
+}
+.winner{
+    margin-left: 40px;
+    line-height: 50px;
+}
+.winner2{
+    margin-left: 90px;
+    line-height: 50px;
+}
+.elebu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.elebu a{
+    text-decoration: none;
+    color: white;
+}
+.elebu:hover a{ 
+    color: rgb(30,215,96);
+}
+.aba{
+    font-size: 30px;
+}
+.nobody{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgb(34,35,38);
+    color:white;
+    margin-left:160px;
+    margin-top: 100px;
+}
+.futa{
+    display: flex;
+}
+.nobody:hover .aba{
+    color: rgb(30,215,96);
+}
+.nobody2{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgb(34,35,38);
+    color:white;
+    margin-top: 100px;
+    margin-left: 13px;
+}
+.nobody2:hover .aba{
+    color: rgb(30,215,96);
+}
+.nobody3{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgb(34,35,38);
+    color:white;
+    margin-top: 100px;
+    margin-left: 13px;
+}
+.fela{
+    display: flex;
+}
+.nobody3:hover .aba{
+    color: rgb(30,215,96);
+}
+.name{
+    margin-left: 80px;
+    margin-top: 85px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.name span{
+    padding-left: 25px;
+    font-weight: 600;
+}
+span a{
+    text-decoration: none;
+    color: rgb(145,148,150);
+}
+span:hover  a{
+    color:rgb(30,215,96);   
+}
+.dodo{
+    margin-top: 50px;
+}
+.iya{
+    margin-left: 570px;
+    margin-top: 400px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.iya a{
+    padding-left: 25px;
+    font-weight: 600;
+    margin-top: 500px;
+}
+.low{
+    padding-left: 550px;
+    font-size: 13px;
+    padding-top: 10px;
+    color: rgb(145,148,150);
+
+}
+
+
