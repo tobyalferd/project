@@ -75,12 +75,13 @@ border-radius: 100%;
     background-color:white;
     margin-left:60px;
     margin-right:60px;
+    height: 830px;
     display: flex;
 }
 .ler{
     margin-left: 0px;
     width: 290px;
-    height: 120vh;
+    height: 130vh;
     background-color: rgb(27, 27, 27);
 }
 .obe{
@@ -110,7 +111,7 @@ border-radius: 100%;
 }.see2:hover{
     border-left: 5px solid  rgb(30,215,96);
 }
-orin{
+.orin{
     font-size: 20px;
     padding-left: 30px;
 }
@@ -359,7 +360,7 @@ span:hover  a{
     color: rgb(30,215,96);
 }
 .break{
-    margin-top: 45px;
+    margin-top: 55px;
     margin-left: 560px;
     font-size: 19px;
     align-items: center;
@@ -382,7 +383,7 @@ span:hover  a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 700;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 .momo a{
     text-decoration: none;
